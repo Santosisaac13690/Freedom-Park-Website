@@ -1,0 +1,240 @@
+body{
+  margin: 0;
+  font-family: 'verdana', sans sefif;
+  font-weight: 100;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  background: greenyellow;
+}
+
+header::after{
+  content: '';
+  display: table;
+clear: both;
+}
+
+.logo{
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+  float: right;
+  margin-right: 15px;
+}
+
+nav ul{
+  margin: 0;
+  padding-top: 10px;
+  list-style: none;
+  display: inline-block;
+}
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a{
+  color: green;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a: hover{
+  color: green;
+}
+
+nav a::before{
+  content:'';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250px;
+}
+
+nav a:hover:before{
+  width: 100%;
+}
+
+/* end header style */
+
+/* begin about style */
+#about{
+  text-align: center;
+  color: green;
+  padding: 30px 200px;
+  line-height: 24px;
+}
+
+#text{
+  border: double 5px greenyellow;
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+/* end about style */
+
+/* begin gallery style */
+#gallery{
+  margin: 100px 0px;
+  text-align: center;
+  background: rgb(247, 247, 247);
+  padding: 80px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#gdesc{
+  color: green;
+
+}
+
+.gimage{
+  height: 325px;
+  width: 325px;
+  margin: 10px 20px;
+}
+
+
+h1{
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+#testimonials{
+ width: 100%;
+ text-align: center;
+}
+
+.testimonial{
+  width: 25%;
+  display: inline-block;
+  border: double 5px greenyellow;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  margin: 80px 10px;
+  
+}
+
+.quote{
+  font-size: 14px;
+  color: green;
+}
+.name{
+  color: green;
+}
+
+.testimonialtitle{
+  color: green;
+  font-size: 30px;
+}
+
+
+.freedom{
+  color: green;
+}  
+
+#landing{
+  background-image: url("https://images.pexels.com/photos/9198/nature-sky-twilight-grass-9198.jpg?cs=srgb&dl=nature-sky-clouds-field-9198.jpg&fm=jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  padding-top: 250px;
+  
+}
+
+#Ltext{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#Ltext h1{
+  font-size: 60px;
+  color: white;
+  margin: 0px;
+}
+
+#Ltext p{
+  color: white;
+  font-size: 16px;
+  margin: 25px 8px;
+
+ 
+}
+
+#Ltext a{
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+  margin: 0px 20px;
+  padding: 12px 25px;
+
+}
+
+#first{
+  background: greenyellow;
+  color: green;
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+}
+
+footer{
+  width: 100%;
+  /* height: auto; */
+  margin: auto;
+  background: greenyellow;
+  padding: 20px 0px;
+  
+}
+
+.footer-menu-one{
+  width: 100%;
+  /* height: auto; */
+  margin: auto;
+  margin-top: 25px;
+}
+
+.footer-menu-one ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-menu-one ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.footer-menu-one ul li a{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 600;
+  color: green;
+  text-transform: uppercase;
+}
+
+img{
+  border-radius: 25px;
+}
+
+h1{
+  color: green; 
+}
