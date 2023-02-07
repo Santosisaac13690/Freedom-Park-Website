@@ -72,10 +72,9 @@ nav a:hover:before{
 /* end header style */
 
 section{
-  height: 100%;
+  height: 85vh;
   background-color: whitesmoke;
-  padding-top: 100px;
-
+  padding-top: 200px;
 }
 
 section h3{
